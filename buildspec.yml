@@ -6,7 +6,7 @@ phases:
       
   build:
     commands:
-      - npm clean-install
+      - sudo npm ci
       
       
 artifacts:
