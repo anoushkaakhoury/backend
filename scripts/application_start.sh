@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "application start"
+cd ..
+npm start
