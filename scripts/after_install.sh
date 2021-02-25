@@ -1,3 +1,3 @@
 #!/bin/bash
 cd ..
-sudo npm start
+sudo npm --prefix /home/ubuntu/app.js start
