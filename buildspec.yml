@@ -7,9 +7,11 @@ phases:
   install:
       -nodejs: 12
       
+      
   build:
     commands:
       - npm install
+      - npm install pm2 -g
       - sed -i "s|mongo_ep|${MONGO_EP}|" app.js
       
       
