@@ -1,3 +1,3 @@
 !#/bin/bash
 
-sudo npm start
+sudo npm run build
