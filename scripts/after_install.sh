@@ -1,3 +1,3 @@
-!#/bin/bash
-
-sudo npm install
+#!/bin/bash
+cd ..
+sudo npm start
