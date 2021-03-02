@@ -1,1 +1,1 @@
-sudo pm2 restart /home/ubuntu/app.js
+sudo pm2 stop /home/ubuntu/app.js
