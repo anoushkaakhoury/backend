@@ -2,7 +2,7 @@ version: 0.0
 os: linux 
 files:
   - source: /
-    destination: /home/ubuntu/backend
+    destination: /home/ubuntu/
     overwrite: true
 hooks:
   BeforeInstall:
@@ -17,7 +17,4 @@ hooks:
     - location: scripts/application_start.sh
       timeout: 300
       runas: ubuntu
-  ApplicationStart:
-    - location: scripts/application_stop.sh
-      timeout: 300
-      runas: ubuntu
+  
